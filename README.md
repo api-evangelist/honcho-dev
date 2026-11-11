@@ -1,4 +1,4 @@
-# honcho-dev
+# Honcho
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-honcho-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://honcho.dev/
+Honcho is an open-source AI memory platform for agents, enabling persistent state across sessions and tools. It supports integration with Claude Code, offers free credits and pay‑per‑million‑token ingestion, and provides a developer‑friendly API for long‑term memory storage, retrieval, and management. The project is maintained by Plastic Labs and aims to be the go‑to memory layer for autonomous AI agents.
+
+**Areas:** AI · Memory · OpenSource · Agents · Platform
+
+## Honcho on APIs.io
+
+Everything profiled for Honcho is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/honcho-dev/](https://apis.io/providers/honcho-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Honcho Apps API](https://apis.io/apis/honcho-dev/honcho-dev-apps-api/) — The apps API from Honcho — 5 operation(s) for apps.
+- [Honcho Collections API](https://apis.io/apis/honcho-dev/honcho-dev-collections-api/) — The collections API from Honcho — 4 operation(s) for collections.
+- [Honcho Documents API](https://apis.io/apis/honcho-dev/honcho-dev-documents-api/) — The documents API from Honcho — 4 operation(s) for documents.
+- [Honcho Keys API](https://apis.io/apis/honcho-dev/honcho-dev-keys-api/) — The keys API from Honcho — 1 operation(s) for keys.
+- [Honcho Messages API](https://apis.io/apis/honcho-dev/honcho-dev-messages-api/) — The messages API from Honcho — 4 operation(s) for messages.
+- [Honcho Metamessages API](https://apis.io/apis/honcho-dev/honcho-dev-metamessages-api/) — The metamessages API from Honcho — 3 operation(s) for metamessages.
+- [Honcho Sessions API](https://apis.io/apis/honcho-dev/honcho-dev-sessions-api/) — The sessions API from Honcho — 5 operation(s) for sessions.
+- [Honcho Users API](https://apis.io/apis/honcho-dev/honcho-dev-users-api/) — The users API from Honcho — 5 operation(s) for users.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Honcho Agentic Access](https://apis.io/agentic-access/honcho-dev/honcho-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Collection](https://apis.io/schemas/honcho-dev/honcho-dev-collection/)
+- [Document](https://apis.io/schemas/honcho-dev/honcho-dev-document/)
+- [Message](https://apis.io/schemas/honcho-dev/honcho-dev-message/)
+- [Metamessage](https://apis.io/schemas/honcho-dev/honcho-dev-metamessage/)
+- [MetamessageCreate](https://apis.io/schemas/honcho-dev/honcho-dev-metamessage-create/)
+- [Session](https://apis.io/schemas/honcho-dev/honcho-dev-session/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Honcho Dev Context](https://apis.io/jsonld/honcho-dev/honcho-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Honcho API Rules](https://apis.io/rules/honcho-dev/honcho-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Honcho Authentication](https://apis.io/security/honcho-dev/honcho-dev-authentication/)
+- [Honcho Domain Security](https://apis.io/security/honcho-dev/honcho-dev-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://honcho.dev/)
+- [Documentation](https://honcho.dev/docs)
+- [Getting started](https://honcho.dev/docs/v3/documentation/introduction/quickstart.md)
+- [API reference](https://honcho.dev/docs/v3/openapi.json)
+- [Changelog](https://honcho.dev/docs/changelog/introduction)
+- [Blog](https://honcho.dev/blog/)
+- [Terms of service](https://app.honcho.dev/tos)
+- [Privacy policy](https://app.honcho.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.1** — developing · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 59.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/honcho-dev/](https://apis.io/providers/honcho-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Honcho: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/honcho-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
